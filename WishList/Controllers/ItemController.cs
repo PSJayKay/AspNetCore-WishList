@@ -12,7 +12,7 @@ namespace WishList.Controllers
 
         public ItemController(ApplicationDbContext context)
         {
-            context = _context;
+            _context = context;
         }
         // GET
         public IActionResult Index()
